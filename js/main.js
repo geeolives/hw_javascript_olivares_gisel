@@ -15,3 +15,8 @@ var styles = [
 
 console.log("Git's %cpull%c is awesome", styles, '');
 console.log('Check out the docs here https://git-scm.com/docs/git-pull');
+
+var iceCream = [
+    ['cookie dough', 'strawberry', 'vanilla'],
+    'mango',
+];
