@@ -53,8 +53,8 @@
       "avoid-escape"
     ],
     "indent": [
+      0,
       2,
-      4,
       {
         "SwitchCase": 1
       }

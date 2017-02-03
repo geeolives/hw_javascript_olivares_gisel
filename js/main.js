@@ -1,5 +1,4 @@
-var styles = [
-	'background: linear-gradient(90deg, #ff9900, #0008ff)',
+var styles = ['background: linear-gradient(90deg, #ff9900, #0008ff)',
 	'border: 1px solid #001dff',
 	'color: white',
 	'display: block',
@@ -28,7 +27,7 @@ var presidents = [
 		termLength: '4 years',
 		party: 'Democratic',
 		yearsofPresidency: '8'
-	};
+	},
 
 	{
 		firstName: 'George',
@@ -36,7 +35,7 @@ var presidents = [
 		termLength: '4 years',
 		party: 'Republican',
 		yearsofPresidency: '8'
-	};
+	},
 
 	{
 		firstName: 'Bill',
@@ -44,7 +43,7 @@ var presidents = [
 		termLength: '4 years',
 		party: 'Democratic',
 		yearsofPresidency: '8'
-	};
+	},
 
 	{
 		firstName: 'George',
@@ -52,7 +51,7 @@ var presidents = [
 		termLength: '4 years',
 		party: 'Republican',
 		yearsofPresidency: '4'
-	};
+	},
 
 	{
 		firstName: 'Ronald',
@@ -60,7 +59,11 @@ var presidents = [
 		termLength: '4 years',
 		party: 'Republican',
 		yearsofPresidency: '8'
-	};
+	}
 	];
 
-console.log(presidents[2]['firstName'] + presidents[2]['lastName']);
+console.log(presidents[2]['firstName'] + ' ' + presidents[2]['lastName']);
+
+function howdy() {
+	console.log('Gisel Olivares says hi!');
+}
