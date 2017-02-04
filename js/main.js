@@ -67,3 +67,13 @@ console.log(presidents[2]['firstName'] + ' ' + presidents[2]['lastName']);
 function howdy() {
 	console.log('Gisel Olivares says hi!');
 }
+
+var numba = function (string) {
+if (string < 7) {
+	console.log('What a short little word!');
+} else if (string === 7) {
+	console.log('7, what a perfect choice!');
+} else {
+	console.log('I’m sorry, but that’s too many to count.');
+}
+};
