@@ -16,7 +16,10 @@ console.log("Git's %cpull%c is awesome", styles, '');
 console.log('Check out the docs here https://git-scm.com/docs/git-pull');
 
 var iceCream = [
-	['cookie dough', 'strawberry', 'vanilla'],
+
+	'cookie dough',
+	'strawberry',
+	'vanilla',
 	'mango'
 ];
 
@@ -69,11 +72,18 @@ function howdy() {
 }
 
 var numba = function (string) {
-if (string < 7) {
+if (string.length < 7) {
 	console.log('What a short little word!');
-} else if (string === 7) {
+} else if (string.length === 7) {
 	console.log('7, what a perfect choice!');
 } else {
 	console.log('I’m sorry, but that’s too many to count.');
 }
 };
+
+function inception(display, favMovie) {
+		return display(favMovie);
+}
+
+var favMovie = inception('is a fantastic movie.');
+console.log(favMovie);
