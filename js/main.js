@@ -82,8 +82,7 @@ if (string.length < 7) {
 };
 
 function inception(display, favMovie) {
-		return display(favMovie);
+	display(favMovie);
 }
 
-var favMovie = inception('is a fantastic movie.');
-console.log(favMovie);
+// Gave up after several tries on this one^ at 3:35 AM CET.
