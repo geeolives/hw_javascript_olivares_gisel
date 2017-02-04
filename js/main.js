@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 var styles = ['background: linear-gradient(90deg, #ff9900, #0008ff)',
+=======
+var styles = [
+	'background: linear-gradient(90deg, #ff9900, #0008ff)',
+>>>>>>> presidents
 	'border: 1px solid #001dff',
 	'color: white',
 	'display: block',
@@ -17,10 +22,14 @@ console.log('Check out the docs here https://git-scm.com/docs/git-pull');
 
 var iceCream = [
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	'cookie dough',
 	'strawberry',
 	'vanilla',
+=======
+	['cookie dough', 'strawberry', 'vanilla'],
+>>>>>>> presidents
 	'mango'
 ];
 
@@ -31,7 +40,11 @@ var presidents = [
 		termLength: '4 years',
 		party: 'Democratic',
 		yearsofPresidency: '8'
+<<<<<<< HEAD
 	},
+=======
+	};
+>>>>>>> presidents
 
 	{
 		firstName: 'George',
@@ -39,7 +52,11 @@ var presidents = [
 		termLength: '4 years',
 		party: 'Republican',
 		yearsofPresidency: '8'
+<<<<<<< HEAD
 	},
+=======
+	};
+>>>>>>> presidents
 
 	{
 		firstName: 'Bill',
@@ -47,7 +64,11 @@ var presidents = [
 		termLength: '4 years',
 		party: 'Democratic',
 		yearsofPresidency: '8'
+<<<<<<< HEAD
 	},
+=======
+	};
+>>>>>>> presidents
 
 	{
 		firstName: 'George',
@@ -55,7 +76,11 @@ var presidents = [
 		termLength: '4 years',
 		party: 'Republican',
 		yearsofPresidency: '4'
+<<<<<<< HEAD
 	},
+=======
+	};
+>>>>>>> presidents
 
 	{
 		firstName: 'Ronald',
@@ -63,6 +88,7 @@ var presidents = [
 		termLength: '4 years',
 		party: 'Republican',
 		yearsofPresidency: '8'
+<<<<<<< HEAD
 	}
 	];
 
@@ -92,3 +118,9 @@ function inception(display, favMovie) {
     'mango',
 ];
 >>>>>>> arrays
+=======
+	};
+	];
+
+console.log(presidents[2]['firstName'] + presidents[2]['lastName']);
+>>>>>>> presidents
