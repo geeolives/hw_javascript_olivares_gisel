@@ -16,6 +16,7 @@ console.log("Git's %cpull%c is awesome", styles, '');
 console.log('Check out the docs here https://git-scm.com/docs/git-pull');
 
 var iceCream = [
+<<<<<<< HEAD
 
 	'cookie dough',
 	'strawberry',
@@ -86,3 +87,8 @@ function inception(display, favMovie) {
 }
 
 // Gave up after several tries on this one^ at 3:35 AM CET.
+=======
+    ['cookie dough', 'strawberry', 'vanilla'],
+    'mango',
+];
+>>>>>>> arrays
